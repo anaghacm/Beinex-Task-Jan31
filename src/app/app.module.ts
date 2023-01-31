@@ -9,6 +9,7 @@ import { BannerComponent } from './banner/banner.component';
 import { ReviewsComponent } from './reviews/reviews.component';
 import { DemorequestComponent } from './demorequest/demorequest.component';
 import { FooterComponent } from './footer/footer.component';
+import { TestimonialComponent } from './testimonial/testimonial.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { FooterComponent } from './footer/footer.component';
     BannerComponent,
     ReviewsComponent,
     DemorequestComponent,
-    FooterComponent
+    FooterComponent,
+    TestimonialComponent
   ],
   imports: [
     BrowserModule,
